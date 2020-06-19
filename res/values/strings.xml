@@ -54,4 +54,6 @@
     <string name="joshua_name">Joshua M.</string>
     <string name="joshua_discription">Designer | Maintainer</string>
 
+    <string name="gesture_settings_title">Navigation Gestures</string>
+    <string name="gesture_settings_title_summary">OnePlus Style Gestures</string>
 </resources>
