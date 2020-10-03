@@ -18,5 +18,5 @@
     <corners
         android:radius="100dp" />
     <solid
-        android:color="@*android:color/venom_cat_fab_background" />
+        android:color="#0a0a0a" />
 </shape>

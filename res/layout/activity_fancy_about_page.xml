@@ -33,7 +33,7 @@
         android:layout_below="@+id/background"
         android:layout_marginStart="30dp"
         android:textSize="20dp"
-        android:textColor="@*android:color/about_text_color_primary"
+        android:textColor="#fff"
         android:text="@string/about_viper" />
 
     <TextView
@@ -43,7 +43,7 @@
         android:layout_alignStart="@+id/name"
         android:layout_below="@+id/name"
         android:layout_marginTop="6dp"
-        android:textColor="@*android:color/about_text_color_secondary"
+        android:textColor="#fff"
         android:layout_marginRight="16dp"
         android:text="@string/about_viper_discription" />
 
@@ -67,7 +67,7 @@
         android:src="@drawable/github" />
 
     <!-- BIRDManJ -->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -78,7 +78,7 @@
         app:cardElevation="4dp"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="@*android:color/bottom_trans_background" >
+        app:cardBackgroundColor="#0a0a0a" >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -106,14 +106,14 @@
                         android:text="@string/birdman_name"
                         android:textStyle="bold"
                         android:textSize="22dp"
-                        android:textColor="@*android:color/about_text_color_primary"
+                        android:textColor="#fff"
                         android:layout_marginLeft="16dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/birdescription"
-                        android:textColor="@*android:color/about_text_color_secondary"
+                        android:textColor="#fff"
                         android:textSize="14dp"
                         android:layout_marginLeft="16dp"
                         android:text="@string/birdman_discription"
@@ -121,10 +121,10 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- JBCDroid -->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -135,7 +135,7 @@
         app:cardElevation="4dp"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="@*android:color/bottom_trans_background" >
+        app:cardBackgroundColor="#0a0a0a" >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -163,14 +163,14 @@
                         android:text="@string/jbcdroid_name"
                         android:textStyle="bold"
                         android:textSize="22dp"
-                        android:textColor="@*android:color/about_text_color_primary"
+                        android:textColor="#fff"
                         android:layout_marginLeft="16dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/jbcdescription"
-                        android:textColor="@*android:color/about_text_color_secondary"
+                        android:textColor="#fff"
                         android:textSize="14dp"
                         android:layout_marginLeft="16dp"
                         android:text="@string/jbcdroid_discription"
@@ -178,10 +178,10 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- EsromTech -->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -192,7 +192,7 @@
         app:cardElevation="4dp"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="@*android:color/bottom_trans_background" >
+        app:cardBackgroundColor="#0a0a0a" >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -220,14 +220,14 @@
                         android:text="@string/esrom_name"
                         android:textStyle="bold"
                         android:textSize="22dp"
-                        android:textColor="@*android:color/about_text_color_primary"
+                        android:textColor="#fff"
                         android:layout_marginLeft="16dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/esromdescription"
-                        android:textColor="@*android:color/about_text_color_secondary"
+                        android:textColor="#fff"
                         android:textSize="14dp"
                         android:layout_marginLeft="16dp"
                         android:text="@string/esrom_discription"
@@ -235,10 +235,10 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- RKSchunk -->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -249,7 +249,7 @@
         app:cardElevation="4dp"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="@*android:color/bottom_trans_background" >
+        app:cardBackgroundColor="#0a0a0a" >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -277,14 +277,14 @@
                         android:text="@string/rkschunk_name"
                         android:textStyle="bold"
                         android:textSize="22dp"
-                        android:textColor="@*android:color/about_text_color_primary"
+                        android:textColor="#fff"
                         android:layout_marginLeft="16dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/rkschunkdescription"
-                        android:textColor="@*android:color/about_text_color_secondary"
+                        android:textColor="#fff"
                         android:textSize="14dp"
                         android:layout_marginLeft="16dp"
                         android:text="@string/rkschunk_discription"
@@ -292,10 +292,10 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- matheeusaf -->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -306,7 +306,7 @@
         app:cardElevation="4dp"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="@*android:color/bottom_trans_background" >
+        app:cardBackgroundColor="#0a0a0a" >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -334,14 +334,14 @@
                         android:text="@string/matheeusaf_name"
                         android:textStyle="bold"
                         android:textSize="22dp"
-                        android:textColor="@*android:color/about_text_color_primary"
+                        android:textColor="#fff"
                         android:layout_marginLeft="16dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/matheeusafdescription"
-                        android:textColor="@*android:color/about_text_color_secondary"
+                        android:textColor="#fff"
                         android:textSize="14dp"
                         android:layout_marginLeft="16dp"
                         android:text="@string/matheeusaf_discription"
@@ -349,10 +349,10 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- Kley76 -->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -363,7 +363,7 @@
         app:cardElevation="4dp"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="@*android:color/bottom_trans_background" >
+        app:cardBackgroundColor="#0a0a0a" >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -391,14 +391,14 @@
                         android:text="@string/kley_name"
                         android:textStyle="bold"
                         android:textSize="22dp"
-                        android:textColor="@*android:color/about_text_color_primary"
+                        android:textColor="#fff"
                         android:layout_marginLeft="16dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/kleydescription"
-                        android:textColor="@*android:color/about_text_color_secondary"
+                        android:textColor="#fff"
                         android:textSize="14dp"
                         android:layout_marginLeft="16dp"
                         android:text="@string/kley_discription"
@@ -406,10 +406,10 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 
     <!-- Joshua M. -->
-    <android.support.v7.widget.CardView
+    <androidx.cardview.widget.CardView
         android:id="@+id/card7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -420,7 +420,7 @@
         app:cardElevation="4dp"
         app:cardCornerRadius="12dp"
         app:cardUseCompatPadding="true"
-        app:cardBackgroundColor="@*android:color/bottom_trans_background" >
+        app:cardBackgroundColor="#0a0a0a" >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -448,14 +448,14 @@
                         android:text="@string/joshua_name"
                         android:textStyle="bold"
                         android:textSize="22dp"
-                        android:textColor="@*android:color/about_text_color_primary"
+                        android:textColor="#fff"
                         android:layout_marginLeft="16dp"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:id="@+id/joshuadescription"
-                        android:textColor="@*android:color/about_text_color_secondary"
+                        android:textColor="#fff"
                         android:textSize="14dp"
                         android:layout_marginLeft="16dp"
                         android:text="@string/joshua_discription"
@@ -463,5 +463,5 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </android.support.v7.widget.CardView>
+    </androidx.cardview.widget.CardView>
 </RelativeLayout>

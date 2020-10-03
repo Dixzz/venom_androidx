@@ -42,7 +42,7 @@
             android:layout_marginRight="10dp"
             android:src="@drawable/venomlogo"
             app:civ_background_color="@*android:color/accent_device_default_light"
-            app:civ_border_color="@*android:color/about_civ_border_color"
+            app:civ_border_color="#0a0a0a"
             app:civ_border_width="10dp"
             android:id="@+id/circularImageView" />
 

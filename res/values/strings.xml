@@ -18,17 +18,17 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- Main Venom -->
-    <string name="venom_title">Venom</string>
+    <!-- Main Custom -->
+    <string name="venom_title">Custom Settings</string>
 
-    <!-- Venom Tab -->
-    <string name="recents_tab">Recents</string>
+    <!-- Custom Tab -->
+    <string name="misc_tab">Misc</string>
     <string name="status_bar_tab">Statusbar</string>
     <string name="system_tab">System</string>
     <string name="lockscreen_tab">Lockscreen</string>
     <string name="about_tab">About</string>
 
-    <!-- Venom Settings -->
+    <!-- Custom Settings -->
     <string name="quicksettings_title">Quick Settings</string>
     <string name="quicksettings_summary">Change more quick settings</string>
     <string name="themesettings_title">Color manager</string>

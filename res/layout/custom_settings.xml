@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/expandable_bottom_bar"
+        android:layout_below="@id/myLinear" />
+
+<LinearLayout
+        android:id="@+id/myLinear"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/top_bar"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/google_sans_bold"
+            android:text="Hello, there!"
+            android:textAlignment="center"
+            android:textColor="@color/lockscreen"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <com.gauravk.bubblenavigation.BubbleNavigationLinearView
+        android:id="@+id/expandable_bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_bar"
+        android:padding="8dp">
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/lockscreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/lockscreen"
+            app:bt_colorInactive="#878787"
+            app:bt_icon="@drawable/lockscreen_bg"
+            app:bt_iconWidth="35dp"
+            app:bt_shape="@drawable/icon_bg"
+            app:bt_shapeColor="#21FF6775"
+            app:bt_title="" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/misc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/misc"
+            app:bt_colorInactive="#878787"
+            app:bt_icon="@drawable/misc_bg"
+            app:bt_iconWidth="35dp"
+            app:bt_shape="@drawable/icon_bg"
+            app:bt_shapeColor="#2100B4EC"
+            app:bt_title="" />
+
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/statusbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/statusbar"
+            app:bt_colorInactive="#878787"
+            app:bt_icon="@drawable/statusbar_bg"
+            app:bt_iconWidth="35dp"
+            app:bt_shape="@drawable/icon_bg"
+            app:bt_shapeColor="#21691EE2"
+            app:bt_title="" />
+
+        <com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/system"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/system"
+            app:bt_colorInactive="#878787"
+            app:bt_icon="@drawable/system_bg"
+            app:bt_iconWidth="35dp"
+            app:bt_shape="@drawable/icon_bg"
+            app:bt_shapeColor="#2100C14A"
+            app:bt_title="" />
+    </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
+</RelativeLayout>

@@ -22,4 +22,16 @@
     <color name="bottom_nav_text_icon_active">@*android:color/accent_device_default_light</color>
 
     <color name="about_text_color_primary">#000</color>
+    <color name="white">#fff</color>
+
+    <color name="lockscreen">#ff6775</color>
+    <color name="misc">#00AADF</color>
+    <color name="statusbar">#7639DA</color>
+    <color name="system">#12BD54</color>
+
+    <color name="default_inactive_shape_color">#e5e5e5</color>
+    <color name="default_inactive_color">#212121</color>
+    <color name="default_shape_inactive_color">#888888</color>
+    <color name="default_badge_background_color">#f44336</color>
+    <color name="default_badge_text_color">#ffffff</color>
 </resources>
