@@ -43,6 +43,7 @@ import com.custom.settings.tabs.Lockscreen;
 import com.custom.settings.tabs.Misc;
 import com.custom.settings.tabs.StatusBar;
 import com.custom.settings.tabs.System;
+import com.custom.settings.tabs.About;
 
 import com.gauravk.bubblenavigation.BubbleNavigationLinearView;
 import com.gauravk.bubblenavigation.listener.BubbleNavigationChangeListener;
@@ -58,13 +59,15 @@ public class CustomSettings extends SettingsPreferenceFragment {
         super.onCreate(savedInstanceState);
 
         mContext = getActivity();
+        Resources res = getResources();
 
-    int[] colors = {
-            mContext.getColor(R.color.lockscreen),
-            mContext.getColor(R.color.misc),
-            mContext.getColor(R.color.statusbar),
-            mContext.getColor(R.color.system)
-    };
+        int[] colors = {
+            res.getColor(R.color.lockscreen),
+            res.getColor(R.color.misc),
+            res.getColor(R.color.statusbar),
+            res.getColor(R.color.system),
+            mContext.getColor(R.color.about)
+        };
 
         view = inflater.inflate(R.layout.custom_settings, container, false);
 
@@ -94,6 +97,7 @@ public class CustomSettings extends SettingsPreferenceFragment {
         Fragment statusbar = new StatusBar();
         Fragment lockscreen = new Lockscreen();
         Fragment misc  = new Misc();
+	Fragment about = new About();
 
         Fragment fragment = (Fragment) getFragmentManager().findFragmentById(R.id.frame_container);
         if (fragment == null) {
@@ -106,8 +110,7 @@ public class CustomSettings extends SettingsPreferenceFragment {
         chipNavigationBar.setNavigationChangeListener(new BubbleNavigationChangeListener() {
             @Override
             public void onNavigationChanged(View view, int position) {
-            int viewId = position;
-            switch (viewId) {
+            switch (position) {
                 default:break;
                 case 0:
                     DrawableCompat.setTint(bottomBarBg, getAlpha(colors[0], 70));
@@ -137,11 +140,18 @@ public class CustomSettings extends SettingsPreferenceFragment {
                     textView.setText("System");
                     startFrag(system);
                     break;
-            }
-	  }
+                case 4:
+                    DrawableCompat.setTint(bottomBarBg, getAlpha(colors[4], 70));
+                    DrawableCompat.setTint(topBarBg, getAlpha(colors[4], 50));
+                    textView.setTextColor(colors[4]);
+                    textView.setText("About Us");
+                    startFrag(system);
+                    break;
+			}
+		}
         });
 
-        setHasOptionsMenu(true);
+        setHasOptionsMenu(false);
         return view;
     }
 

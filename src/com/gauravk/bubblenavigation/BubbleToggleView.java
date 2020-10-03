@@ -14,6 +14,8 @@
 
 package com.gauravk.bubblenavigation;
 
+import androidx.fragment.app.Fragment;
+import android.content.res.Resources;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -28,6 +30,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.util.Log;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
@@ -37,8 +40,8 @@ import androidx.core.view.ViewCompat;
 import androidx.vectordrawable.graphics.drawable.VectorDrawableCompat;
 
 import com.gauravk.bubblenavigation.util.ViewUtils;
-
-import com.custom.settings.R;
+import android.graphics.Color;
+import com.android.settings.R;
 
 /**
  * BubbleToggleView
@@ -100,7 +103,12 @@ public class BubbleToggleView extends RelativeLayout {
      */
     private void init(Context context, @Nullable AttributeSet attrs) {
         //initialize default component
+	Log.e("satyam", context+"");
+	Resources res = getResources();
         String title = "Title";
+	Log.e("Satyam", ""+context+" "+res.getColor(R.color.white) + " "+
+                    "\n" + " "+ContextCompat.getColor(context, R.color.white) + " " + res);
+
         Drawable icon = null;
         Drawable shape = null;
         int shapeColor = Integer.MIN_VALUE;
@@ -114,8 +122,8 @@ public class BubbleToggleView extends RelativeLayout {
         int titlePadding = (int) context.getResources().getDimension(R.dimen.default_nav_item_text_padding);
 
         int badgeTextSize = (int) context.getResources().getDimension(R.dimen.default_nav_item_badge_text_size);
-        int badgeBackgroundColor = ContextCompat.getColor(context, R.color.default_badge_background_color);
-        int badgeTextColor = ContextCompat.getColor(context, R.color.default_badge_text_color);
+        int badgeBackgroundColor = context.getResources().getColor(R.color.default_badge_background_color);
+        int badgeTextColor = context.getResources().getColor(R.color.default_badge_text_color);
         String badgeText = null;
 
         if (attrs != null) {

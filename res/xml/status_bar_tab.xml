@@ -24,11 +24,4 @@
         android:title="@string/gesture_settings_title"
         android:summary="@string/gesture_settings_title_summary"
         android:fragment="com.custom.settings.fragments.GestureSettings" />
-
-    <com.custom.settings.support.preferences.CategoryVenomPreference
-	android:key="venom_about"
-	android:title="About"
-	android:summary=""
-	android:icon="@drawable/about_tab"
-        android:fragment="com.custom.settings.tabs.About" />
 </PreferenceScreen>

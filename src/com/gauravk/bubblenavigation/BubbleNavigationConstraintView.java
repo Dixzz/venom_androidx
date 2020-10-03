@@ -1,4 +1,4 @@
-/*
+	/*
         Copyright 2019 Gaurav Kumar
 
         Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,7 +33,7 @@ import com.gauravk.bubblenavigation.IBubbleNavigation;
 import com.gauravk.bubblenavigation.listener.BubbleNavigationChangeListener;
 
 import java.util.ArrayList;
-import com.custom.settings.R;
+import com.android.settings.R;
 
 /**
  * BubbleNavigationConstraintView

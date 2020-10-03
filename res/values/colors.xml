@@ -18,6 +18,7 @@
 <resources>
 
     <!-- Tab & About Colors -->
+    <color name="selector_tab">#fff</color>
     <color name="BottomBarBackgroundColor">@*android:color/black</color>
     <color name="bottom_nav_text_icon_active">@*android:color/accent_device_default_light</color>
 
@@ -28,6 +29,7 @@
     <color name="misc">#00AADF</color>
     <color name="statusbar">#7639DA</color>
     <color name="system">#12BD54</color>
+    <color name="about">#3769FF</color>
 
     <color name="default_inactive_shape_color">#e5e5e5</color>
     <color name="default_inactive_color">#212121</color>

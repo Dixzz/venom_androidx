@@ -2,5 +2,5 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:drawable="@drawable/system_tab"
-        android:left="10dp" />
+        android:left="30dp" />
 </layer-list>

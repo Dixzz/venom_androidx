@@ -78,5 +78,4 @@
         android:scrollHorizontally="true"
         android:textSize="12sp"
         android:textColor="#0a0a0a"/>
-
 </RelativeLayout>

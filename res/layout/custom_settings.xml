@@ -10,12 +10,13 @@
         android:layout_above="@id/expandable_bottom_bar"
         android:layout_below="@id/myLinear" />
 
-<LinearLayout
+   <LinearLayout
         android:id="@+id/myLinear"
         android:layout_width="match_parent"
         android:layout_height="55dp"
         android:layout_centerHorizontal="true"
         android:background="@drawable/top_bar"
+	android:elevation="6dp"
         android:gravity="center">
 
         <TextView
@@ -46,7 +47,7 @@
             app:bt_icon="@drawable/lockscreen_bg"
             app:bt_iconWidth="35dp"
             app:bt_shape="@drawable/icon_bg"
-            app:bt_shapeColor="#21FF6775"
+            app:bt_shapeColor="#FF6775"
             app:bt_title="" />
 
         <com.gauravk.bubblenavigation.BubbleToggleView
@@ -60,7 +61,6 @@
             app:bt_shape="@drawable/icon_bg"
             app:bt_shapeColor="#2100B4EC"
             app:bt_title="" />
-
 
         <com.gauravk.bubblenavigation.BubbleToggleView
             android:id="@+id/statusbar"
@@ -84,6 +84,17 @@
             app:bt_iconWidth="35dp"
             app:bt_shape="@drawable/icon_bg"
             app:bt_shapeColor="#2100C14A"
+            app:bt_title="" />
+
+	<com.gauravk.bubblenavigation.BubbleToggleView
+            android:id="@+id/about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:bt_colorActive="@color/about"
+            app:bt_colorInactive="#878787"
+            app:bt_icon="@drawable/about_bg"
+            app:bt_shape="@drawable/icon_bg"
+            app:bt_shapeColor="#213769FF"
             app:bt_title="" />
     </com.gauravk.bubblenavigation.BubbleNavigationLinearView>
 </RelativeLayout>
