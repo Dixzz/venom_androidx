@@ -19,7 +19,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.viper.venom.about.DiagonalView
+    <com.custom.settings.about.DiagonalView
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:scaleType="centerCrop"

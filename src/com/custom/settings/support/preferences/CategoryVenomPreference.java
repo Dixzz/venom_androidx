@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.viper.venom.support.preferences;
+package com.custom.settings.support.preferences;
 
 import android.content.Context;
 import android.content.res.TypedArray;

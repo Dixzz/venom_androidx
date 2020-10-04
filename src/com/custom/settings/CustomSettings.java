@@ -145,10 +145,10 @@ public class CustomSettings extends SettingsPreferenceFragment {
                     DrawableCompat.setTint(topBarBg, getAlpha(colors[4], 50));
                     textView.setTextColor(colors[4]);
                     textView.setText("About Us");
-                    startFrag(system);
+                    startFrag(about);
                     break;
-			}
 		}
+	     }
         });
 
         setHasOptionsMenu(false);

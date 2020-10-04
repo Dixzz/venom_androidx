@@ -19,7 +19,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.viper.venom.about.About">
+    tools:context="com.custom.settings.about.About">
 
 <ScrollView
     android:layout_width="match_parent"
@@ -29,12 +29,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 		
-    <com.viper.venom.about.FancyAboutPage
+    <com.custom.settings.about.FancyAboutPage
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/fancyaboutpage" >
 
-        <com.viper.venom.about.CircularImageView
+        <com.custom.settings.about.CircularImageView
             android:layout_width="140dp"
             android:layout_height="140dp"
             android:layout_marginTop="180dp"
@@ -46,7 +46,7 @@
             app:civ_border_width="10dp"
             android:id="@+id/circularImageView" />
 
-    </com.viper.venom.about.FancyAboutPage>
+    </com.custom.settings.about.FancyAboutPage>
 
     </RelativeLayout>
 </ScrollView>
